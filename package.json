@@ -1,0 +1,21 @@
+{
+  "name": "wechat-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startwechat": "node wechat.js",
+    "startrest": "node rest.js",
+    "gen_json": "java -jar xlsx2json-cli.jar ./xlsx ./public/json --disable-watching"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "connect-query": "^1.0.0",
+    "express": "^4.15.2",
+    "node-wechat": "^0.3.0",
+    "wechat": "^2.1.0"
+  }
+}
