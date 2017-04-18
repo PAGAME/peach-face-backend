@@ -36,7 +36,7 @@ app.get("/api/visitors", function (request, response) {
 });
 
 //serve static file (index.html, images, css)
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/public'));
 
 // start app
 var port = process.env.PORT || 4000
